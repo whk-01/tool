@@ -1,0 +1,5 @@
+# 统一使用 LF，避免 WSL/Linux 下脚本出现 CRLF 导致无法执行
+* text=auto eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+*.md text eol=lf
